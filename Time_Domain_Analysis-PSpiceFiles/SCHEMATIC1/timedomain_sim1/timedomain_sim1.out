@@ -1,0 +1,174 @@
+
+**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "timedomain_sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Gayan Lahiru\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TIME_DOMAIN_ANALYSIS
+R_R2         N02673 N02629  1k TC=0,0 
+R_R4         N02521 N02511  100 TC=0,0 
+R_R1         N02725 N02673  1k TC=0,0 
+X_U1         N02629 N02639 bulb PARAMS: Vnom=2.5V Pnom=100W HCtau=4.082
+D_D1         N02511 N02551 LO_541B-TYP 
+R_R3         0 N02667  1k TC=0,0 
+Q_Q1         N02551 N02639 N02667 Q2SD553 
+V_V1         N02521 0 6Vdc
+V_V2         N02725 0 0.5Vdc
+
+**** RESUMING timedomain_sim1.cir ****
+.END
+
+**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LO_541B-TYP     
+          IS  661.430000E-24 
+           N    1.6455       
+          RS    4.8592       
+
+
+**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2SD553         
+               NPN             
+       LEVEL    1            
+          IS  474.720000E-15 
+          BF  148.63         
+          NF    1            
+         VAF  100            
+         IKF    6.0587       
+         ISE    3.761100E-12 
+          NE    1.4143       
+          BR   27.254        
+          NR    1            
+         VAR  100            
+         IKR   19.98         
+         ISC   26.962000E-12 
+          NC    1.3044       
+          NK     .59293      
+         ISS    0            
+          RB     .26         
+          RE    0            
+          RC     .050208     
+         CJE  783.390000E-12 
+         VJE     .75         
+         MJE     .33333      
+         CJC  607.280000E-12 
+         VJC     .75         
+         MJC     .33333      
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF    2.680200E-09 
+         XTF   10            
+         VTF   10            
+         ITF    1            
+          TR  464.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02511)    5.9969 (N02521)    6.0000 (N02551)    4.3629 (N02629)     .4971     
+
+(N02639)     .4971 (N02667)     .0325 (N02673)     .4986 (N02725)     .5000     
+
+(X_U1.c)     .4971 (X_U1.res)     .0600                  (X_U1.temp)  300.0000  
+
+(X_U1.ambnt)  300.0000                
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.108E-05
+    V_V2        -1.437E-06
+    X_U1.Vsense   1.437E-06
+    X_U1.Vambnt  -3.000E-10
+
+    TOTAL POWER DISSIPATION   1.87E-04  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        1.03
+  Total job time (using Solver 1)   =        2.06
+

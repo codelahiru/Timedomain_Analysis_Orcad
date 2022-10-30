@@ -1,0 +1,3 @@
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\osram_5mmradial.lib, offset=14381, size=1443
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\jpwrbjt.lib, offset=121433, size=399
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\opto.lib, offset=11503, size=1249
