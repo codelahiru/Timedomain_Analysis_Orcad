@@ -1,7 +1,7 @@
 
-**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/30/22 22:40:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysi
 
 
  ****     CIRCUIT DESCRIPTION
@@ -44,9 +44,9 @@ V_V2         N02725 0 0.5Vdc
 **** RESUMING timedomain_sim1.cir ****
 .END
 
-**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/30/22 22:40:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysi
 
 
  ****     Diode MODEL PARAMETERS
@@ -63,9 +63,9 @@ V_V2         N02725 0 0.5Vdc
           RS    4.8592       
 
 
-**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/30/22 22:40:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysi
 
 
  ****     BJT MODEL PARAMETERS
@@ -117,9 +117,9 @@ V_V2         N02725 0 0.5Vdc
            D     .87         
 
 
-**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/30/22 22:40:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysi
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -157,9 +157,9 @@ V_V2         N02725 0 0.5Vdc
 
           JOB CONCLUDED
 
-**** 10/30/22 20:42:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/30/22 22:40:10 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\PROJECTS\Orcad Capture CIS\Project_0005\Time_Domain_Analysis-PSpiceFiles\SCHEMATIC1\t
+ ** Profile: "SCHEMATIC1-timedomain_sim1"  [ F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysi
 
 
  ****     JOB STATISTICS SUMMARY
@@ -169,6 +169,6 @@ V_V2         N02725 0 0.5Vdc
 
 
 
-  License check-out time            =        1.03
-  Total job time (using Solver 1)   =        2.06
+  License check-out time            =        2.74
+  Total job time (using Solver 1)   =         .75
 
