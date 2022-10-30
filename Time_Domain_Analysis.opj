@@ -14,11 +14,15 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile
-         ".\time_domain_analysis-pspicefiles\schematic1\timedomain_sim1.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\time_domain_analysis-pspicefiles\schematic1\timedomain_sim1.sim"
         (DisplayName "SCHEMATIC1-timedomain_sim1")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\time_domain_analysis-pspicefiles\schematic1\biaspoint_sim2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\time_domain_analysis-pspicefiles\schematic1\biaspoint_sim2.sim"
+        (DisplayName "SCHEMATIC1-biaspoint_sim2")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -32,8 +36,17 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysis.dsn")
+      (Path "Design Resources"
+         "F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysis.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "F:\Projects\Orcad Capture CIS\Project_0005\Timedomain_Analysis_Orcad\time_domain_analysis.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -43,11 +56,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1238 52 303")
-        (Scroll "-84 20")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1264 78 329")
+        (Scroll "-84 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "F:\PROJECTS\ORCAD CAPTURE CIS\PROJECT_0005\TIME_DOMAIN_ANALYSIS.DSN")
+         "F:\PROJECTS\ORCAD CAPTURE CIS\PROJECT_0005\TIMEDOMAIN_ANALYSIS_ORCAD\TIME_DOMAIN_ANALYSIS.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
